@@ -116,15 +116,6 @@
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="label2" Text="メインタブの表の更新間隔 (秒):" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleEnd" Text="前回の戦闘から新しい戦闘に入るまでの待機秒数" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleTimerEnd" Text="カウントダウンにログファイルのタイムスタンプの代わりに内部タイマーを使用する" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing" UniqueName="groupBox2" Text="高度なグラフの設定" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing\groupBox2" UniqueName="label1" Text="グラフに追加するダメージ種別カテゴリを選択" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing\groupBox2" UniqueName="label92" Text="線グラフについて、n秒間の平均値をプロットに使用する:" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing\groupBox2" UniqueName="label11" Text="グラフ生成時のCPU優先度:" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing\groupBox2" UniqueName="cbGraphRollingAvg" Text="時間区分でグループ分けされたグラフ線の代わりに移動平均のグラフ線を用いる" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing" UniqueName="rbGraphAdv" Text="高度な時系列DPSグラフを用いる (高負荷)" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing" UniqueName="cbSimpleGraphTotals" Text="合計と平均を表示する" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing" UniqueName="cbOnlyGraphAllies" Text="味方のみを表示する" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\OpGraphing" UniqueName="rbGraphSimple" Text="棒グラフに現在の並べ替えを適用する" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExportFilterSpace" Text="テキストをエクスポートするために、戦闘データの空白を除去する" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="label3" Text="クリップボードの書式:" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="groupBox35" Text="戦闘後にEQ2のマクロファイルにエクスポートする" />
@@ -139,13 +130,6 @@
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="btnRemovePresetClip" Text="削除" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExText" Text="戦闘後にクリップボードにエクスポートする" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc" UniqueName="groupBox25" Text="ODBCデータベース" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="groupBox1" Text="DataSource 互換性オプション (正規表現)" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1\tableLayoutPanel2" UniqueName="label2" Text="検索" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1\tableLayoutPanel2" UniqueName="label3" Text="置換" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1" UniqueName="btnResetOdbcHacks" Text="リセット" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1" UniqueName="btnOdbcHackRemove" Text="削除" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1" UniqueName="btnOdbcHackAdd" Text="追加" />
-    <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\groupBox1" UniqueName="label1" Text="接続文字列パターン" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbCurrentOdbc" Text="n秒ごとに現在のエンカウントのテーブルをエクスポートする" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="linkLabelOdbcControl" Text="ODBCコントロールアプレットを開く" />
     <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcTestConnection" Text="接続テスト" />
@@ -488,7 +472,6 @@
     <Control ControlPath="root\tc1" UniqueName="tpAbout" Text="About" />
     <Control ControlPath="root\tc1\tpAbout" UniqueName="groupBox14" Text="Send Bugs or Feedback" />
     <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="rtbFeedback" Text="Type comments here, then click Submit." />
-    <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="label24" Text="If you have specific comments or concerns about ACT, feel free to use this submission form.  If sending a bug, try to be precise in how it occured and what the outcome was.  Please also check the include error log box.  If you have a question, please remember to fill in your return email address." />
     <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="btnFeedbackSubmit" Text="Submit" />
     <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="cbFeedbackLogs" Text="Include error logs from          &quot;Advanced Combat Tracker.log&quot;" />
     <Control ControlPath="root\tc1\tpAbout" UniqueName="gbAbout" Text="About" />
@@ -498,8 +481,5 @@
     <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label5" Text="Version:" />
     <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="linkURL" Text="Main Website" />
     <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label4" Text="Made by Aditu of &lt;Cataclysm&gt; (EQ2-Permafrost)" />
-    <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="linkEmail" Text="aditu@maine.rr.com" />
-    <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="lblVersion" Text="3.1.5     Release: 246" />
     <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label7" Text="Visit:" />
-    <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label19" Text="/join eq.serverwide.actparse" />
 </ControlText>
