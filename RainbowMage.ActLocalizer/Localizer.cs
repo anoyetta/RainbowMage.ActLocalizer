@@ -1,13 +1,11 @@
-﻿using Advanced_Combat_Tracker;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using Advanced_Combat_Tracker;
 
 namespace RainbowMage.ActLocalizer
 {
@@ -223,7 +221,11 @@ namespace RainbowMage.ActLocalizer
 
         private static string GetLocalizerXmlPath(string locale, string fileName)
         {
-            return Path.Combine("locale", locale, fileName);
+            return Path.Combine(
+                Path.GetDirectoryName(Assembly.GetEntryAssembly().Location),
+                "locale",
+                locale,
+                fileName);
         }
     }
 
@@ -232,6 +234,7 @@ namespace RainbowMage.ActLocalizer
     {
         [XmlAttribute]
         public string Original { get; set; }
+
         [XmlText]
         public string Translated { get; set; }
     }
@@ -241,8 +244,10 @@ namespace RainbowMage.ActLocalizer
     {
         [XmlAttribute]
         public string Description { get; set; }
+
         [XmlAttribute]
         public string Key { get; set; }
+
         [XmlText]
         public string DisplayText { get; set; }
     }
